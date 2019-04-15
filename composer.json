@@ -1,10 +1,10 @@
 {
-    "name": "laravel/laravel",
+    "name": "luuray/homesrv",
     "type": "project",
-    "description": "The Laravel Framework.",
+    "description": "a Laravel and Swoole based home server project.",
     "keywords": [
-        "framework",
-        "laravel"
+        "laravel",
+        "swoole"
     ],
     "license": "MIT",
     "require": {
