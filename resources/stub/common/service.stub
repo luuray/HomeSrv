@@ -1,0 +1,20 @@
+<?php
+/**
+ * HomeSrv
+ *
+ * DummyClass
+ *
+ * @author Luuray
+ * @copyright Rainhan System
+ * @id $Id$
+ *
+ * Copyright (c) 2010-2019, Rainhan System
+ * Site: www.rainhan.net/?proj=HomeSrv
+ */
+
+
+namespace DummyNamespace;
+
+class DummyClass implements IService
+{
+}

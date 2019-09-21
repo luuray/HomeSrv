@@ -175,9 +175,11 @@ return [
 		App\Providers\EventServiceProvider::class,
 		App\Providers\RouteServiceProvider::class,
 
-		SwooleTW\Http\LaravelServiceProvider::class,
-		Telegram\Bot\Laravel\TelegramServiceProvider::class
+		\Bschmitt\Amqp\AmqpServiceProvider::class,
 
+		SwooleTW\Http\LaravelServiceProvider::class,
+
+		\PhpTelegramBot\Laravel\PhpTelegramBotServiceProvider::class
 	],
 
 	/*
@@ -229,7 +231,7 @@ return [
 		'Validator'    => Illuminate\Support\Facades\Validator::class,
 		'View'         => Illuminate\Support\Facades\View::class,
 
-		'Telegram' => Telegram\Bot\Laravel\Facades\Telegram::class
+		'Amqp'=>\Bschmitt\Amqp\Facades\Amqp::class,
 	],
 
 ];

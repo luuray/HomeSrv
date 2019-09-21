@@ -1,0 +1,16 @@
+{
+    "name": "luuray/laravel-telegram-bot",
+    "description": "yet another Telegram Bot plugin for Laravel",
+    "type": "library",
+    "require": {
+        "laravel/framework": "5.8.*",
+        "php": "^7.1.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Luuray",
+            "email": "luuray@rainhan.com"
+        }
+    ]
+}
